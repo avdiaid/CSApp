@@ -247,10 +247,7 @@ int bitCount(int x) {
  *   Rating: 4
  */
 int bang(int x) {
-  int minus_x = x+1;
-  /* Cute trick: 0 is the only value of x
-   * for which neither x nor -x are negative */
-  return (~(minus_x&x) >> 31) & 1;
+
 }
 /*
  * tmin - return minimum two's complement integer
