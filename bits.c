@@ -247,7 +247,8 @@ int bitCount(int x) {
  *   Rating: 4
  */
 int bang(int x) {
-
+    int test;
+    printf("hello");
 }
 /*
  * tmin - return minimum two's complement integer
